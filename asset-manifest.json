@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/JSON-visualizer/static/css/main.7b01724f.css",
+    "main.js": "/JSON-visualizer/static/js/main.44ce0a50.js",
+    "index.html": "/JSON-visualizer/index.html",
+    "main.7b01724f.css.map": "/JSON-visualizer/static/css/main.7b01724f.css.map",
+    "main.44ce0a50.js.map": "/JSON-visualizer/static/js/main.44ce0a50.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b01724f.css",
+    "static/js/main.44ce0a50.js"
+  ]
+}
