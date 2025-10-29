@@ -67,7 +67,7 @@ Paste JSON, generate the tree, search using JSONPath, toggle themes, copy node p
 
 ```bash
 # Clone the repository
-git clone https://github.com/Manvitha-Vema/json-tree-visualizer.git
+git clone https://github.com/suryavema/JSON-visualizer.git
 
 cd json-tree-visualizer
 
