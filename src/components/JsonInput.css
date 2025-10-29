@@ -1,0 +1,66 @@
+.json-input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 8px;
+  padding: 14px;
+}
+
+.json-input-container h2 { margin: 0; font-size: 1.05rem; }
+
+.json-textarea {
+  width: 100%;
+  min-height: 220px;
+  font-size: 13px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #cfe7d6;
+  font-family: monospace;
+  resize: vertical;
+  transition: background 0.2s, color 0.2s, border 0.2s;
+}
+
+.json-input-container.light .json-textarea { background: #fff; color: #07120f; border: 1px solid #dfefe0; }
+.json-input-container.dark .json-textarea { background: #07120f; color: #d1fae5; border: 1px solid rgba(255,255,255,0.04); }
+
+.generate-btn {
+  background: var(--object-light);
+  color: white;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 700;
+}
+.json-input-container.dark .generate-btn { background: var(--object-dark); }
+
+.error { color: #f00b0b; font-size: 0.9rem; }
+.input-actions { display:flex; gap:8px; margin-top:6px; align-items:center; }
+.hint { font-size: 12px; color: rgba(0,0,0,0.6); margin: 0; }
+.app-container.dark .hint { color: rgba(255,255,255,0.6); }
+
+.clear-btn.light {
+    background: rgba(0,0,0,0.2);
+  color: black;
+  padding: 10px 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.25s;
+}
+
+.clear-btn.dark{
+    background: rgba(0,0,0,0.2);
+  color: #99ccb4;
+  padding: 10px 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.25s;
+}
+
+.clear-btn:hover {
+  background-color: #d8d5d5;
+}
