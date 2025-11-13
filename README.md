@@ -1,11 +1,11 @@
-# 🌳 JSON Tree Visualizer
+# JSON Tree Visualizer
 
 An interactive web application to visualize JSON data as a hierarchical graph using **React Flow**.  
 Paste JSON, generate the tree, search using JSONPath, toggle themes, copy node paths, and download the tree as an image — all in one place!
 
 ---
 
-## 🚀 Features
+## Features
 
 ✅ JSON Input with validation  
 ✅ Interactive tree visualization using React Flow  
@@ -18,19 +18,8 @@ Paste JSON, generate the tree, search using JSONPath, toggle themes, copy node p
 ✅ Fully responsive layout 📱  
 ✅ Clear button to reset input and visualization  
 
----
 
-## 📸 Screenshots
-
-| Light Mode | Dark Mode |
-|-----------|-----------|
-| _(Add Screenshot Here)_ | _(Add Screenshot Here)_ |
-
-> You can update these once deployed
-
----
-
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Technology | Purpose |
 |-----------|---------|
@@ -41,7 +30,7 @@ Paste JSON, generate the tree, search using JSONPath, toggle themes, copy node p
 
 ---
 
-## 📌 How to Use
+## How to Use
 
 1️⃣ Paste or type valid JSON in the input box  
 2️⃣ Click **Generate Tree**  
@@ -53,7 +42,7 @@ Paste JSON, generate the tree, search using JSONPath, toggle themes, copy node p
 
 ---
 
-## 🧪 JSONPath Search Examples
+## JSONPath Search Examples
 
 | Query | Result |
 |-------|--------|
@@ -63,7 +52,7 @@ Paste JSON, generate the tree, search using JSONPath, toggle themes, copy node p
 
 ---
 
-## ⚙️ Setup & Run Locally
+## Setup & Run Locally
 
 ```bash
 # Clone the repository
